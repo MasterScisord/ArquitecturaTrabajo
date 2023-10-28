@@ -1,0 +1,63 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+.centrar{
+  text-align: center;
+}
+.img{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+ion-content {
+  --background: #289DD2;
+}
+
+.cletra{
+  color: #FFFFFF;
+}
+.centrarbot{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.opacidad{
+  opacity: 0.5;
+}
+
+
+.no-border-button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline; /* Para subrayar el texto */
+  color: #f5b21c; /* Reemplaza 'your-text-color' con el color deseado para el texto */
+  font-size: 13px; /* Ajusta el tamaño de fuente según tus preferencias */
+  padding: 0; /* Elimina cualquier relleno alrededor del botón */
+}

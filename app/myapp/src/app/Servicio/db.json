@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "Rut": "11111111-1",
+      "password": "admin",
+      "Nombre": "Cristobal",
+      "Apellido": "Maluenda",
+      "CorreoE": "MataFurros@gmail.com"
+    },
+    {
+      "Rut": "11111111-2",
+      "password": "user1",
+      "Nombre": "Amaro",
+      "Apellido": "Contreras",
+      "CorreoE": "FandelRubius@gmail.com"
+    },
+    {
+      "Rut": "11111111-3",
+      "password": "user2",
+      "Nombre": "Crsitopher",
+      "Apellido": "Garcia",
+      "CorreoE": "Crsitopher.uwu@gmail.com"
+    }
+  ]
+}
