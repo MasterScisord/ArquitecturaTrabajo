@@ -6,7 +6,7 @@
   </ion-header>
   <br>
   <br>
-  <img class="img" src="../..s/assets/icon/CentroMedico.png" alt="">
+  <img class="img" src="../../assets/icon/CentroMedico.png" alt="">
   <br>
   <h1 class="centrar cletra">Centro Galenos</h1>
   <br>
@@ -14,7 +14,7 @@
   <br>
   <ion-list class="opacidad">
     <ion-item>
-      <ion-input [(ngModel)]="user.Rut" label="Rut" labelPlacement="floating" placeholder=""></ion-input>
+      <ion-input [(ngModel)]="user.Rut" label="Rut" labelPlacement="floating" placeholder="todos los digitos + guion y digito verificador"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Contraseña</ion-label>
@@ -26,5 +26,5 @@
     ¿Has olvidado tu contraseña?
   </ion-button>  <!--router link es el comando para redirigir-->
   <br>
-  <ion-button class="img" color="warning" (click)="enviarLogin()">ENTRAR</ion-button>
+  <ion-button class="img" color="warning" (click)="enviarLogin()">Iniciar Sesion</ion-button>
 </ion-content>

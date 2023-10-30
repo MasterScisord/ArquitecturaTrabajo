@@ -15,18 +15,21 @@ const routes: Routes = [
     path: 'olvidecontra',
     loadChildren: () => import('./olvidecontra/olvidecontra.module').then( m => m.OlvidecontraPageModule)
   },
-  {
-    path: 'bienvenida',
-    loadChildren: () => import('./bienvenida/bienvenida.module').then( m => m.BienvenidaPageModule)
-  },
+
   {
     path: '**',
     loadChildren: () => import('./Error/error/error.module').then( m => m.ErrorPageModule)
   },
 
+  {
+    path: 'menu',
+    loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
+
 ];
 
 @NgModule({
+
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
   ],

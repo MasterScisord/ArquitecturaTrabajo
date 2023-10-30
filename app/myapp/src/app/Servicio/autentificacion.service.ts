@@ -40,17 +40,17 @@ export class AutentificarService {
     }
   }
   
-  async login (username:String, password: String):Promise<Boolean>{
+  async login(Rut:string, password:string): Promise<boolean> {
     const users = await this.local.get('users') || [];
-    const user = users.find((us:User)=> us.Rut===username && us.password===password);
-    if(users){
+    const user = users.find((us: User) => us.Rut === Rut && us.password === password);
+    if (users) {
       this.autentificado = true;
       return true;
     }
     this.autentificado = false;
     return false;
   }
-
+  
   logout(){
     this.autentificado=false;
     this.router.navigate(['/home']);

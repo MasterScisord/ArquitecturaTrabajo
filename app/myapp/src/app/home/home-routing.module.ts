@@ -8,15 +8,10 @@ const routes: Routes = [
     component: HomePage,
   },
   {
-    path: 'olvidecontra',
+    path: 'menu',
     loadChildren: () =>
-      import('../olvidecontra/olvidecontra.module').then((m) => m.OlvidecontraPageModule),
+      import('../menu/menu.module').then((m) => m.MenuPageModule),
   },
-  {
-    path: 'bienvenida',
-    loadChildren: () =>
-      import('../bienvenida/bienvenida.module').then((m) => m.BienvenidaPageModule),
-  }
 ];
 
 @NgModule({
