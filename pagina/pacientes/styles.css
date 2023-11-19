@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF; /* Blanco */
+  color: #333333; /* Texto principal */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0099CC; /* Celeste */
+  color: #FFFFFF; /* Texto del encabezado */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #E6F7FF; /* Tono claro de celeste */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú Hospital</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Bienvenido</h1>
+    <!-- Aquí va tu encabezado si lo necesitas -->
+  </header>
+
+  <div class="menu-container">
+    <div class="menu">
+      <button id="registrarBtn" class="bigButton">Registrar Horario</button>
+      <button id="verPacientesBtn" class="bigButton">Ver Pacientes de Hoy</button>
+    </div>
+  </div>
+
+  <section class="horario hidden">
+    <!-- Contenido para registrar horario -->
+  </section>
+
+  <section class="pacientes hidden">
+    <!-- Contenido para ver pacientes de hoy -->
+  </section>
+
+  <footer class="footer">
+    <!-- Aquí va tu pie de página si lo necesitas -->
+  </footer>
+
+  <script>
+    document.getElementById("registrarBtn").addEventListener("click", function() {
+      window.location.href = "D:/a/pagina/CalenLogin/Calendario.html";
+    });
+
+    document.getElementById("verPacientesBtn").addEventListener("click", function() {
+      window.location.href = "D:/a/pagina/pacientes/pacientes.html";
+    });
+  </script>
+</body>
+</html>
